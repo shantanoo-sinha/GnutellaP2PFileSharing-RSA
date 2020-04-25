@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: Shantanoo
+Build-Jdk: 1.8.0_151
+Class-Path: lib/log4j-core-2.13.0.jar lib/log4j-api-2.13.0.jar
+Main-Class: com.iit.aos.pa4.Client
+Created-By: Maven Integration for Eclipse
+
