@@ -1,0 +1,500 @@
+2020-04-24 15:48:34,367 INFO c.i.a.p.Main [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 15:48:34,424 INFO c.i.a.p.Main [main] Enter the filename to download a file
+2020-04-24 15:48:34,483 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 15:49:05,071 INFO c.i.a.p.Main [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 15:49:05,079 INFO c.i.a.p.Main [main] Enter the filename to download a file
+2020-04-24 15:49:11,210 INFO c.i.a.p.Main [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 15:49:11,230 INFO c.i.a.p.Main [main] Enter the filename to download a file
+2020-04-24 15:49:11,278 INFO c.i.a.p.Main [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 15:49:11,298 INFO c.i.a.p.Main [main] Enter the filename to download a file
+2020-04-24 15:49:32,096 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 15:50:00,305 INFO c.i.a.p.Main [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 15:50:00,320 INFO c.i.a.p.Main [main] Enter the filename to download a file
+2020-04-24 15:50:54,280 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 15:53:08,665 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 15:58:30,633 INFO c.i.a.p.Superpeer [Thread-2] Superpeer: 2, started at /127.0.0.1:59176
+2020-04-24 16:03:55,485 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Received query from 3
+2020-04-24 16:05:25,648 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Found file . queryhit: 11.txt
+2020-04-24 16:05:59,088 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 16:06:59,258 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Query forwarded to 1
+2020-04-24 16:19:39,172 INFO c.i.a.p.Superpeer [Thread-2] Superpeer: 1, started at /127.0.0.1:59580
+2020-04-24 16:23:34,691 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Received query from 2
+2020-04-24 16:25:57,398 INFO c.i.a.p.CommunicateWithPeer [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 16:29:08,210 INFO c.i.a.p.Main [main] Leafnodes containing the file are: 
+2020-04-24 16:29:38,873 INFO c.i.a.p.Main [main] 2
+2020-04-24 16:29:52,444 INFO c.i.a.p.Main [main] 
+ Selecting leafnode: 2 To download file 
+
+2020-04-24 16:32:54,920 INFO c.i.a.p.Main [main] 11.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 16:33:06,620 INFO c.i.a.p.Main [main] File: 11.txt downloaded from Leafnode: 2 to Leafnode:3
+2020-04-24 16:33:35,419 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 17:12:08,175 INFO c.i.a.p.Superpeer [Thread-2] Superpeer: 2, started at /127.0.0.1:59884
+2020-04-24 17:13:20,314 INFO c.i.a.p.CommunicateWithPeer [Thread-7] Received query from 1
+2020-04-24 17:13:55,577 INFO c.i.a.p.CommunicateWithPeer [Thread-7] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 17:14:09,718 INFO c.i.a.p.CommunicateWithPeer [Thread-7] Query forwarded to 3
+2020-04-24 17:17:05,301 INFO c.i.a.p.Superpeer [Thread-2] Superpeer: 3, started at /127.0.0.1:59898
+2020-04-24 17:18:42,027 INFO c.i.a.p.CommunicateWithPeer [Thread-6] Received query from 2
+2020-04-24 17:18:42,058 INFO c.i.a.p.CommunicateWithPeer [Thread-6] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 17:18:47,380 INFO c.i.a.p.Main [main] Leafnodes containing the file are: 
+2020-04-24 17:18:47,389 INFO c.i.a.p.Main [main] 
+ Selecting leafnode: 0 To download file 
+
+2020-04-24 19:17:48,567 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:17:48,577 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:17:48,584 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:17:52,980 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:17:52,991 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:17:52,998 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:17:57,521 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:17:57,532 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:17:57,538 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:18:16,550 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51445
+2020-04-24 19:18:16,571 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:18:16,571 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:18:16,571 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:18:16,580 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51446
+2020-04-24 19:18:16,596 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:18:16,597 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:18:16,601 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:18:16,602 INFO c.i.a.p.Client [main] 
+ Selecting leafnode: 0 To download file 
+
+2020-04-24 19:19:20,699 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:19:20,716 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:19:20,721 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:19:23,979 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:19:23,992 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:19:23,998 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:19:27,716 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:19:27,736 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:19:27,741 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:21:49,763 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51462
+2020-04-24 19:21:49,789 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:21:49,790 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:21:49,791 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:21:49,802 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51463
+2020-04-24 19:21:49,820 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:21:49,823 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:22:02,308 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:22:33,473 INFO c.i.a.p.Client [main] 
+ Selecting leafnode: 0 To download file 
+
+2020-04-24 19:27:03,922 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:27:03,929 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:27:03,932 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:27:08,650 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:27:08,660 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:27:08,663 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:27:13,046 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:27:13,055 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:27:13,059 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:27:20,153 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51486
+2020-04-24 19:27:20,167 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:27:20,167 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:27:20,167 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:27:20,172 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51487
+2020-04-24 19:27:20,183 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:27:20,184 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:27:20,187 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:27:20,188 INFO c.i.a.p.Client [main] File not found on any nodes.
+2020-04-24 19:28:24,597 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:28:24,606 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:28:24,609 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:28:28,139 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:28:28,146 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:28:28,149 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:28:30,731 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:28:30,735 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:28:30,738 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:28:37,284 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51489
+2020-04-24 19:28:37,297 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:28:37,298 INFO c.i.a.p.ServerListener [Thread-4] Found file . queryhit: 11.txt
+2020-04-24 19:28:37,298 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:28:37,298 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:28:37,303 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51490
+2020-04-24 19:28:37,314 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:28:37,315 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:28:37,318 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:28:37,319 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:28:37,319 INFO c.i.a.p.Client [main] Selecting leafnode: 2 to download the requested file 11.txt
+2020-04-24 19:28:37,321 INFO c.i.a.p.Client [main] 11.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:28:37,321 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:28:37,321 INFO c.i.a.p.Client [main] File: 11.txt downloaded from Leafnode: 2 to Leafnode:3
+2020-04-24 19:29:22,287 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51496
+2020-04-24 19:29:22,287 INFO c.i.a.p.Server [Thread-2] Superpeer: 3, started at /127.0.0.1:51497
+2020-04-24 19:29:22,289 INFO c.i.a.p.ServerListener [Thread-5] Received query from 2
+2020-04-24 19:29:22,290 INFO c.i.a.p.ServerListener [Thread-5] Found file . queryhit: 1.txt
+2020-04-24 19:29:22,291 INFO c.i.a.p.ServerListener [Thread-5] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:29:22,291 INFO c.i.a.p.ServerListener [Thread-6] Received query from 2
+2020-04-24 19:29:22,292 INFO c.i.a.p.ServerListener [Thread-6] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:29:22,294 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:29:22,295 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:29:22,296 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 1.txt
+2020-04-24 19:29:22,297 INFO c.i.a.p.Client [main] 1.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master
+2020-04-24 19:29:22,298 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:29:22,298 INFO c.i.a.p.Client [main] File: 1.txt downloaded from Leafnode: 1 to Leafnode:2
+2020-04-24 19:29:56,781 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51499
+2020-04-24 19:29:56,792 INFO c.i.a.p.ServerListener [Thread-11] Received query from 1
+2020-04-24 19:29:56,794 INFO c.i.a.p.ServerListener [Thread-11] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:29:56,795 INFO c.i.a.p.ServerListener [Thread-11] Query forwarded to 3
+2020-04-24 19:29:56,796 INFO c.i.a.p.Server [Thread-2] Superpeer: 3, started at /127.0.0.1:51500
+2020-04-24 19:29:56,798 INFO c.i.a.p.ServerListener [Thread-7] Received query from 2
+2020-04-24 19:29:56,798 INFO c.i.a.p.ServerListener [Thread-7] Found file . queryhit: 23.txt
+2020-04-24 19:29:56,798 INFO c.i.a.p.ServerListener [Thread-7] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:29:56,799 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:29:56,801 INFO c.i.a.p.Client [main] 3
+2020-04-24 19:29:56,801 INFO c.i.a.p.Client [main] Selecting leafnode: 3 to download the requested file 23.txt
+2020-04-24 19:29:56,803 INFO c.i.a.p.Client [main] 23.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master
+2020-04-24 19:29:56,803 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:29:56,803 INFO c.i.a.p.Client [main] File: 23.txt downloaded from Leafnode: 3 to Leafnode:1
+2020-04-24 19:30:35,291 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:30:35,301 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:30:35,306 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:30:38,387 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:30:38,402 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:30:38,402 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:30:46,599 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:30:46,607 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:30:46,613 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:31:19,566 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51512
+2020-04-24 19:31:19,594 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:31:19,594 INFO c.i.a.p.ServerListener [Thread-4] Found file . queryhit: 1.txt
+2020-04-24 19:31:19,594 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:31:24,161 INFO c.i.a.p.Server [Thread-2] Superpeer: 3, started at /127.0.0.1:51513
+2020-04-24 19:31:24,181 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:31:24,182 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:31:28,462 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:31:33,689 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:31:40,066 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 1.txt
+2020-04-24 19:31:41,888 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:31:41,891 INFO c.i.a.p.Client [main] 1.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master
+2020-04-24 19:31:45,660 INFO c.i.a.p.Client [main] File: 1.txt downloaded from Leafnode: 1 to Leafnode:2
+2020-04-24 19:34:51,349 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:34:51,354 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:34:51,357 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:34:56,419 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:34:56,427 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:34:56,433 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:35:01,695 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:35:01,701 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:35:01,703 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:35:06,650 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51520
+2020-04-24 19:35:06,669 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:35:06,670 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:06,671 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:35:06,677 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51521
+2020-04-24 19:35:06,688 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:35:06,689 INFO c.i.a.p.ServerListener [Thread-4] Found file . queryhit: 9.txt
+2020-04-24 19:35:06,689 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:06,692 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:35:06,693 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:06,693 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 9.txt
+2020-04-24 19:35:06,695 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:35:06,696 INFO c.i.a.p.Client [main] 9.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:35:06,696 INFO c.i.a.p.Client [main] File: 9.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:35:06,696 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:35:13,725 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51527
+2020-04-24 19:35:13,728 INFO c.i.a.p.ServerListener [Thread-7] Received query from 3
+2020-04-24 19:35:13,729 INFO c.i.a.p.ServerListener [Thread-7] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:13,729 INFO c.i.a.p.ServerListener [Thread-7] Query forwarded to 1
+2020-04-24 19:35:13,730 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51528
+2020-04-24 19:35:13,731 INFO c.i.a.p.ServerListener [Thread-5] Received query from 2
+2020-04-24 19:35:13,732 INFO c.i.a.p.ServerListener [Thread-5] Found file . queryhit: 8.txt
+2020-04-24 19:35:13,733 INFO c.i.a.p.ServerListener [Thread-5] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:13,734 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:35:13,734 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:13,734 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:13,734 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 8.txt
+2020-04-24 19:35:13,736 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:35:13,736 INFO c.i.a.p.Client [main] 8.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:35:13,736 INFO c.i.a.p.Client [main] File: 8.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:35:13,736 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:35:23,848 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51530
+2020-04-24 19:35:23,850 INFO c.i.a.p.ServerListener [Thread-10] Received query from 3
+2020-04-24 19:35:23,851 INFO c.i.a.p.ServerListener [Thread-10] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:23,852 INFO c.i.a.p.ServerListener [Thread-10] Query forwarded to 1
+2020-04-24 19:35:23,861 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51531
+2020-04-24 19:35:23,864 INFO c.i.a.p.ServerListener [Thread-6] Received query from 2
+2020-04-24 19:35:23,865 INFO c.i.a.p.ServerListener [Thread-6] Found file . queryhit: 7.txt
+2020-04-24 19:35:23,865 INFO c.i.a.p.ServerListener [Thread-6] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:35:23,867 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:35:23,867 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:23,867 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:23,867 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:35:23,867 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 7.txt
+2020-04-24 19:35:23,868 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:35:23,869 INFO c.i.a.p.Client [main] 7.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:35:23,869 INFO c.i.a.p.Client [main] File: 7.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:35:23,869 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:36:19,278 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51533
+2020-04-24 19:36:19,279 INFO c.i.a.p.ServerListener [Thread-13] Received query from 3
+2020-04-24 19:36:19,280 INFO c.i.a.p.ServerListener [Thread-13] Found file . queryhit: 12.txt
+2020-04-24 19:36:19,280 INFO c.i.a.p.ServerListener [Thread-13] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:36:19,280 INFO c.i.a.p.ServerListener [Thread-13] Query forwarded to 1
+2020-04-24 19:36:19,280 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51534
+2020-04-24 19:36:19,286 INFO c.i.a.p.ServerListener [Thread-7] Received query from 2
+2020-04-24 19:36:19,289 INFO c.i.a.p.ServerListener [Thread-7] Found file . queryhit: 12.txt
+2020-04-24 19:36:19,289 INFO c.i.a.p.ServerListener [Thread-7] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:36:19,299 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:36:19,300 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:19,300 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:19,300 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:19,301 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:36:19,301 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:19,301 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 12.txt
+2020-04-24 19:36:19,304 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:36:19,304 INFO c.i.a.p.Client [main] 12.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:36:19,305 INFO c.i.a.p.Client [main] File: 12.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:36:19,305 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:36:28,556 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51544
+2020-04-24 19:36:28,558 INFO c.i.a.p.ServerListener [Thread-16] Received query from 3
+2020-04-24 19:36:28,559 INFO c.i.a.p.ServerListener [Thread-16] Found file . queryhit: 19.txt
+2020-04-24 19:36:28,560 INFO c.i.a.p.ServerListener [Thread-16] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:36:28,560 INFO c.i.a.p.ServerListener [Thread-16] Query forwarded to 1
+2020-04-24 19:36:28,561 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51545
+2020-04-24 19:36:28,564 INFO c.i.a.p.ServerListener [Thread-8] Received query from 2
+2020-04-24 19:36:28,565 INFO c.i.a.p.ServerListener [Thread-8] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:36:28,565 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:36:28,565 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:28,565 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:28,565 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:28,565 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:36:28,569 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:36:28,569 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:36:28,569 INFO c.i.a.p.Client [main] Selecting leafnode: 2 to download the requested file 19.txt
+2020-04-24 19:36:28,571 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:36:28,571 INFO c.i.a.p.Client [main] 19.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:36:28,571 INFO c.i.a.p.Client [main] File: 19.txt downloaded from Leafnode: 2 to Leafnode:3
+2020-04-24 19:36:28,571 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:38:28,301 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51553
+2020-04-24 19:38:28,303 INFO c.i.a.p.ServerListener [Thread-19] Received query from 3
+2020-04-24 19:38:28,310 INFO c.i.a.p.ServerListener [Thread-19] Found file . queryhit: 14.txt
+2020-04-24 19:38:28,311 INFO c.i.a.p.ServerListener [Thread-19] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:38:28,311 INFO c.i.a.p.ServerListener [Thread-19] Query forwarded to 1
+2020-04-24 19:38:28,313 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51554
+2020-04-24 19:38:28,322 INFO c.i.a.p.ServerListener [Thread-9] Received query from 2
+2020-04-24 19:38:28,324 INFO c.i.a.p.ServerListener [Thread-9] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:38:28,328 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:38:28,328 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:38:28,335 INFO c.i.a.p.Client [main] 2
+2020-04-24 19:38:28,336 INFO c.i.a.p.Client [main] Selecting leafnode: 2 to download the requested file 14.txt
+2020-04-24 19:38:28,337 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:38:28,338 INFO c.i.a.p.Client [main] 14.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:38:28,338 INFO c.i.a.p.Client [main] File: 14.txt downloaded from Leafnode: 2 to Leafnode:3
+2020-04-24 19:38:28,338 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:40:45,156 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:40:45,165 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:40:45,168 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:40:47,409 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:40:47,414 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:40:47,417 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:40:49,722 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 19:40:49,729 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:40:49,733 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:40:57,360 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51563
+2020-04-24 19:40:57,372 INFO c.i.a.p.ServerListener [Thread-4] Received query from 3
+2020-04-24 19:40:57,373 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:40:57,374 INFO c.i.a.p.ServerListener [Thread-4] Query forwarded to 1
+2020-04-24 19:40:57,381 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51564
+2020-04-24 19:40:57,395 INFO c.i.a.p.ServerListener [Thread-4] Received query from 2
+2020-04-24 19:40:57,396 INFO c.i.a.p.ServerListener [Thread-4] Found file . queryhit: 1.txt
+2020-04-24 19:40:57,396 INFO c.i.a.p.ServerListener [Thread-4] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:40:57,400 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:40:57,401 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:40:57,401 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 1.txt
+2020-04-24 19:40:57,403 INFO c.i.a.p.Client [main] 1.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:40:57,403 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:40:57,403 INFO c.i.a.p.Client [main] File: 1.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:40:57,404 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:41:11,737 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:51567
+2020-04-24 19:41:11,739 INFO c.i.a.p.ServerListener [Thread-7] Received query from 3
+2020-04-24 19:41:11,740 INFO c.i.a.p.ServerListener [Thread-7] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:41:11,740 INFO c.i.a.p.ServerListener [Thread-7] Query forwarded to 1
+2020-04-24 19:41:11,742 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51568
+2020-04-24 19:41:11,743 INFO c.i.a.p.ServerListener [Thread-5] Received query from 2
+2020-04-24 19:41:11,745 INFO c.i.a.p.ServerListener [Thread-5] Found file . queryhit: 2.txt
+2020-04-24 19:41:11,745 INFO c.i.a.p.ServerListener [Thread-5] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:41:11,746 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:41:11,746 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:41:11,747 INFO c.i.a.p.Client [main] Selecting leafnode: 1 to download the requested file 2.txt
+2020-04-24 19:41:11,748 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:41:11,748 INFO c.i.a.p.Client [main] 2.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master
+2020-04-24 19:41:11,749 INFO c.i.a.p.Client [main] File: 2.txt downloaded from Leafnode: 1 to Leafnode:3
+2020-04-24 19:41:11,749 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 19:41:28,386 INFO c.i.a.p.Server [Thread-2] Superpeer: 1, started at /127.0.0.1:51574
+2020-04-24 19:41:28,388 INFO c.i.a.p.Server [Thread-2] Superpeer: 3, started at /127.0.0.1:51573
+2020-04-24 19:41:28,389 INFO c.i.a.p.ServerListener [Thread-6] Received query from 2
+2020-04-24 19:41:28,391 INFO c.i.a.p.ServerListener [Thread-6] Found file . queryhit: 1.txt
+2020-04-24 19:41:28,391 INFO c.i.a.p.ServerListener [Thread-6] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:41:28,392 INFO c.i.a.p.ServerListener [Thread-8] Received query from 2
+2020-04-24 19:41:28,393 INFO c.i.a.p.ServerListener [Thread-8] Found file . queryhit: 1.txt
+2020-04-24 19:41:28,393 INFO c.i.a.p.ServerListener [Thread-8] Msg from Superpeer: Search in Leafnode completed
+2020-04-24 19:41:28,394 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 19:41:28,395 INFO c.i.a.p.Client [main] 1
+2020-04-24 19:41:28,395 INFO c.i.a.p.Client [main] 3
+2020-04-24 19:41:28,395 INFO c.i.a.p.Client [main] Selecting leafnode: 3 to download the requested file 1.txt
+2020-04-24 19:41:28,398 INFO c.i.a.p.Client [main] 1.txt file is transferred to your private storage: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master
+2020-04-24 19:41:28,398 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 19:41:28,398 INFO c.i.a.p.Client [main] File: 1.txt downloaded from Leafnode: 3 to Leafnode:2
+2020-04-24 19:41:28,398 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)

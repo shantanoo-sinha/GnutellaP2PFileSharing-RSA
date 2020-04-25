@@ -1,0 +1,11 @@
+Client1.port=2001
+Client2.port=2002
+Client3.port=2003
+
+Client1.serverport=3001
+Client2.serverport=3002
+Client3.serverport=3003
+
+Client1.next=2
+Client2.next=1,3
+Client3.next=2

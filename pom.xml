@@ -1,0 +1,215 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>GnutellaP2PFileSharing-RSA</groupId>
+	<artifactId>GnutellaP2PFileSharing-RSA</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>GnutellaP2PFileSharing-RSA</name>
+	<description>GnutellaP2PFileSharing-RSA</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<log4j.version>2.13.0</log4j.version>
+	</properties>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.3.1</version>
+				<configuration>
+					<!-- DO NOT include log4j.properties file in your Jar -->
+					<excludes>
+						<exclude>**/log4j2.properties</exclude>
+					</excludes>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<!-- Jar file entry point -->
+							<mainClass>com.iit.aos.pa4.Client</mainClass>
+							<classpathPrefix>lib/</classpathPrefix>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.5.1</version>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>
+								${project.build.directory}/lib/
+							</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.0.2</version>
+				<executions>
+					<execution>
+						<id>copy-resources01</id>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<includeEmptyDirs>true</includeEmptyDirs>
+							<outputDirectory>${basedir}/target/${project.name}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${basedir}/src/test/resources</directory>
+									<filtering>false</filtering>
+								</resource>
+								<resource>
+									<directory>${basedir}/src/main/resources/topologies</directory>
+									<targetPath>topologies</targetPath>
+									<filtering>false</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-resources02</id>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/${project.name}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${basedir}/target</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>${project.artifactId}.jar</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-resources03</id>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<targetPath>${project.name}</targetPath>
+									<directory>${basedir}/target/classes</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>log4j2.properties</include>
+									</includes>
+								</resource>
+								<resource>
+									<targetPath>${project.name}</targetPath>
+									<directory>${basedir}/target/classes</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>*.bat</include>
+									</includes>
+								</resource>
+								<resource>
+									<targetPath>${project.name}</targetPath>
+									<directory>${basedir}/target/classes</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>*.sh</include>
+									</includes>
+								</resource>
+								<resource>
+									<targetPath>${project.name}/lib</targetPath>
+									<directory>${project.build.directory}/lib</directory>
+									<filtering>false</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>create-folder</id>
+						<phase>install</phase>
+						<configuration>
+							<tasks>
+								<mkdir
+									dir="target/${project.name}/Clients/Client1/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client2/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client3/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client4/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client5/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client6/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client7/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client8/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client9/files/shared" />
+								<mkdir
+									dir="target/${project.name}/Clients/Client10/files/shared" />
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+	</dependencies>
+</project>
