@@ -28,6 +28,7 @@ public class ServerListener extends Thread {
 	private static final Logger logger = LogManager.getLogger(ServerListener.class);
 	protected Socket socket;
 	String FileDirectory;
+	static String topologyFile;
 	String fname;
 	int peer_id;
 	ArrayList<String> peermsg;
@@ -93,8 +94,8 @@ public class ServerListener extends Thread {
 				}
 				logger.info("Msg from Superpeer: Search in Leafnode completed");
 				Properties prop = new Properties();
-				Client M = new Client();
-				String fileName = M.topologyFile;
+//				Client client = new Client();
+				String fileName = Client.topologyFile;
 				is = new FileInputStream(fileName);
 				prop.load(is);
 				String temp = prop.getProperty(Constants.CLIENT_PREFIX + peer_id + Constants.NEXT);

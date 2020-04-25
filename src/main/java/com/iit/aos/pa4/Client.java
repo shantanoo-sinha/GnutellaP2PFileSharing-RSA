@@ -1,172 +1,62 @@
 package com.iit.aos.pa4;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.Properties;
 import java.util.Scanner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.iit.aos.pa4.model.Message;
+import com.iit.aos.pa4.rsa.RSA;
+import com.iit.aos.pa4.rsa.RSAKeyPair;
+import com.iit.aos.pa4.rsa.ReadKeys;
 import com.iit.aos.pa4.util.Constants;
-
-/*class LeafNode extends Thread {
-
-	private static final Logger logger = LogManager.getLogger(LeafNode.class);
-
-	int leafNodePort, connectedSuperpeer, frompeerId, timeToLive;
-	String filetodownload, msgid;
-	Socket socket = null;
-	int[] peersArray;
-	Message MF = new Message();
-	String keysDir, sharedKeysDir;
-
-	public LeafNode(int leafNodePort, int connectedSuperpeer, String filetodownload, String msgid, int frompeerId,
-			int timeToLive, String keysDir, String sharedKeysDir) {
-		// Initializing LeafNode local variables.
-		this.leafNodePort = leafNodePort;
-		this.connectedSuperpeer = connectedSuperpeer;
-		this.filetodownload = filetodownload;
-		this.msgid = msgid;
-		this.frompeerId = frompeerId;
-		this.timeToLive = timeToLive;
-		this.keysDir = keysDir;
-		this.sharedKeysDir = sharedKeysDir;
-	}
-
-	public void run() {
-		try {
-			//TODO
-			// Initiate the socket connection to communicate with Superpeer that
-			// File exixts or Not.
-			socket = new Socket(Constants.LOCALHOST, leafNodePort);
-			OutputStream os = socket.getOutputStream();
-			// Object output stream wraps around socket and transfers file
-			ObjectOutputStream oos = new ObjectOutputStream(os);
-			InputStream is = socket.getInputStream();
-			ObjectInputStream ois = new ObjectInputStream(is);
-			// Initializing the message with to - from and id trail
-			MF.setFile_name(filetodownload);
-			MF.setMessage_ID(msgid);
-			MF.setFromPeerId(frompeerId);
-			MF.setTtl(timeToLive);
-			// Writing the message
-			oos.writeObject(MF);
-
-			peersArray = (int[]) ois.readObject();
-		} catch (IOException io) {
-			io.printStackTrace();
-		} catch (ClassNotFoundException cp) {
-			cp.printStackTrace();
-		}
-	}
-
-	public int[] getarray() {
-		return peersArray;
-	}
-}*/
-
-/*// Responsible for initiating File transfer . This class by itself does little
-// Mainly delegates work to helper class FileSender.
-
-class FileDownloader extends Thread {
-
-	private static final Logger logger = LogManager.getLogger(FileDownloader.class);
-	int portno;
-	String FileDirectory;
-	ServerSocket serverSocket;
-	String keysDir, sharedKeysDir;
-	int peerID;
-
-	FileDownloader(int peerID, int portno, String FileDirectory, String keysDir, String sharedKeysDir) {
-		this.peerID = peerID;
-		this.portno = portno;
-		this.FileDirectory = FileDirectory;
-		this.keysDir = keysDir;
-		this.sharedKeysDir = sharedKeysDir;
-	}
-
-	public void run() {
-		try {
-			// Just create the ServerSocket abstraction and pass that to actual FileSender
-			serverSocket = new ServerSocket(portno);
-		} catch (IOException io) {
-			io.printStackTrace();
-		}
-		new FileSender(peerID, serverSocket, portno, FileDirectory, keysDir, sharedKeysDir).start();
-	}
-}*/
-
-/*// This class performs the heavy lifting for Actual File send.
-class FileSender extends Thread {
-
-	private static final Logger logger = LogManager.getLogger(FileSender.class);
-	int portno;
-	String sharedDirectory, fileName;
-	String keysDir, sharedKeysDir;
-	ServerSocket socket;
-	int peerID;
-
-	// Parameterized constructor
-	FileSender(int peerID, ServerSocket socket, int portno, String FileDir, String keysDir, String sharedKeysDir) {
-		this.peerID = peerID;
-		this.socket = socket;
-		this.portno = portno;
-		this.sharedDirectory = FileDir;
-		this.keysDir = keysDir;
-		this.sharedKeysDir = sharedKeysDir;
-	}
-
-	public void run() {
-		try {
-			// This is an infinite for loop keeps running at the background , that always
-			// listens for
-			// incoming query messages . And responds.
-			while (true) {
-				logger.info("\n\n (N.B. In the background parallely Waiting for new File download Request) \n\n");
-				// Following 4 lines are boilerplate socket and Objectstream code.
-				// http://www.java2s.com/Code/Java/Network-Protocol/TransferafileviaSocket.htm
-				Socket sock = socket.accept();
-				//TODO
-				InputStream is = sock.getInputStream();
-				ObjectInputStream ois = new ObjectInputStream(is);
-				fileName = (String) ois.readObject();
-				File myFile = new File(sharedDirectory + "/" + fileName);
-				byte[] mybytearray = new byte[(int) myFile.length()];
-				// Using BufferedInputStream to buffer large file content.
-				BufferedInputStream bis = new BufferedInputStream(new FileInputStream(myFile));
-				bis.read(mybytearray, 0, mybytearray.length);
-				OutputStream os = sock.getOutputStream();
-				os.write(mybytearray, 0, mybytearray.length);
-				// Done writing . Now close the socket and flush stream.
-				os.flush();
-				sock.close();
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-}*/
 
 public class Client {
 	private static final Logger logger = LogManager.getLogger(Client.class);
+	int peerID;
 	static String topologyFile;
-	static String filesDir;
-	static String keysDir;
-	private static String sharedKeysDir;
+	String filesDir;
+	String keysDir;
+	private String sharedKeysDir;
+	private RSAKeyPair rsaKeyPair;
+
+	public Client() {
+		super();
+	}
+
+	/**
+	 * @param peerID
+	 * @param topologyFile
+	 * @param filesDir
+	 * @param keysDir
+	 */
+	public Client(int peerID, String topologyFile, String filesDir, String keysDir) {
+		super();
+		this.peerID = peerID;
+		Client.topologyFile = topologyFile;
+		this.filesDir = filesDir;
+		this.keysDir = keysDir;
+	}
+
+	public String getKeysDir() {
+		return keysDir;
+	}
+
+	public String getSharedKeysDir() {
+		return sharedKeysDir;
+	}
 
 	// Entry point of the application.
 	public static void main(String[] args) {
@@ -179,30 +69,36 @@ public class Client {
 			// Maintains an associative array of the Leaf nodes.
 			ArrayList<LeafNode> peers = new ArrayList<LeafNode>();
 			// Parse input arguments to get the topology and shared path
+			String topologyFile = args[0];
 			int peerID = Integer.parseInt(args[1]);
-			filesDir = args[2];
-			keysDir = new File(new File(filesDir).getParent()).getParent() + File.separator + Constants.KEYS_FOLDER;
-			sharedKeysDir = new File(keysDir) + File.separator + Constants.SHARED_FOLDER;
-			Properties prop = new Properties();
-			topologyFile = args[0];
+			String filesDir = args[2];
+
+			String keysDir = new File(new File(filesDir).getParent()).getParent() + File.separator + Constants.KEYS_FOLDER;
+			logger.debug("keysDir:" + keysDir);
+			String sharedKeysDir = new File(keysDir) + File.separator + Constants.SHARED_FOLDER;
+			logger.debug("sharedKeysDir:" + sharedKeysDir);
+			
+			Client client = new Client(peerID, topologyFile, filesDir, keysDir);
 			// Peer startup message.
 			logger.info("Super-peer " + peerID + " stated with master storage " + filesDir + File.separator
 					+ Constants.MASTER_FOLDER + ", Topology: " + topologyFile);
-			/*
-			 * logger.info("Super-peer " + peer_id + " stated with shared storage " +
-			 * filesDir + File.separator + Constants.SHARED_FOLDER + " Topology: " +
-			 * topologyFile);
-			 */
+
+			Properties prop = new Properties();
 			InputStream is = new FileInputStream(topologyFile);
 			// Reading from topology file using Java Properties.
 			prop.load(is);
-			ports = Integer.parseInt(prop.getProperty(Constants.CLIENT_PREFIX + peerID + Constants.SERVER_PORT));
+			ports = Integer.parseInt(prop.getProperty(Constants.CLIENT_PREFIX + client.peerID + Constants.SERVER_PORT));
+
+			// Generate or load RSA keys
+			client.generateKeys();
+			
 			// Initiate the file downloader
-			FileDownloader sd = new FileDownloader(peerID, ports, filesDir, keysDir, sharedKeysDir);
-			sd.start();
+			FileDownloader fileDownloader = new FileDownloader(peerID, ports, filesDir, keysDir, sharedKeysDir);
+			fileDownloader.start();
+
 			portserver = Integer.parseInt(prop.getProperty(Constants.CLIENT_PREFIX + peerID + Constants.PORT));
-			Server cs = new Server(portserver, filesDir, peerID, keysDir, sharedKeysDir);
-			cs.start();
+			Server server = new Server(peerID, portserver, filesDir, keysDir, sharedKeysDir);
+			server.start();
 			while (true) {
 				logger.info("Enter the file name to download (with extension)");
 				String fileToDownload = new Scanner(System.in).nextLine();
@@ -292,6 +188,67 @@ public class Client {
 			logger.info(filename + " file is transferred to your private storage: " + filesDir);
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+
+	private void generateKeys() {
+
+		if (new File(this.keysDir).exists()) {
+			rsaKeyPair = new RSAKeyPair(ReadKeys.readPrivateKey(this.peerID, this.keysDir), ReadKeys.readPublicKey(this.peerID, this.keysDir));
+			return;
+		}
+		logger.info("Generating RSA keys");
+		RSA rsa = new RSA(1024);
+		rsaKeyPair = rsa.getRSAKeyPair();
+		writeKeys();
+	}
+
+	private void writeKeys() {
+
+		logger.info("Writing RSA keys");
+
+		String privateKeyFile = getKeysDir() + File.separator + Constants.CLIENT_PREFIX + this.peerID + Constants.PRIVATE_KEY_SUFFIX;
+		String publicKeyFile = getKeysDir() + File.separator + Constants.CLIENT_PREFIX + this.peerID + Constants.PUBLIC_KEY_SUFFIX;
+
+		if (!new File(getKeysDir()).exists())
+			new File(getKeysDir()).mkdirs();
+
+		FileOutputStream privateOut = null, publicOut = null;
+		FileWriter privateFileWriter = null, publicFileWriter = null;
+		try {
+			// logger.info("N: " + rsa.getN());
+			// logger.info("e: " + rsa.getE());
+			// logger.info("d: " + rsa.getD());
+
+			privateFileWriter = new FileWriter(privateKeyFile);
+			BufferedWriter bufferedWriter = new BufferedWriter(privateFileWriter);
+			bufferedWriter.write(Base64.getEncoder().encodeToString(("" + rsaKeyPair.getPrivate().getModulus()).getBytes()));
+			bufferedWriter.newLine();
+			bufferedWriter.write(Base64.getEncoder().encodeToString(("" + rsaKeyPair.getPrivate().getPrivateExponent()).getBytes()));
+			// Always close files.
+			bufferedWriter.close();
+
+			publicFileWriter = new FileWriter(publicKeyFile);
+			bufferedWriter = new BufferedWriter(publicFileWriter);
+			bufferedWriter.write(Base64.getEncoder().encodeToString(("" + rsaKeyPair.getPublic().getModulus()).getBytes()));
+			bufferedWriter.newLine();
+			bufferedWriter.write(Base64.getEncoder().encodeToString(("" + rsaKeyPair.getPublic().getPublicExponent()).getBytes()));
+			// Always close files.
+			bufferedWriter.close();
+			logger.info("RSA keys generated");
+		} catch (IOException e) {
+			logger.error("[" + this.peerID + "] " + "Client exception: Unable to write RSA keys.");
+			e.printStackTrace();
+		} finally {
+			try {
+				if (privateOut != null)
+					privateOut.close();
+				if (publicOut != null)
+					publicOut.close();
+			} catch (IOException e) {
+				logger.error("[" + this.peerID + "] " + "Client exception: Unable to close FileOutputStream.");
+				e.printStackTrace();
+			}
 		}
 	}
 }

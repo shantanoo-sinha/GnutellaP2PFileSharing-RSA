@@ -498,3 +498,140 @@
 
 2020-04-24 19:41:28,398 INFO c.i.a.p.Client [main] File: 1.txt downloaded from Leafnode: 3 to Leafnode:2
 2020-04-24 19:41:28,398 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:28:32,649 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:28:32,654 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:28:32,780 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:28:32,790 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:28:32,796 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:28:36,492 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:31:18,025 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:31:28,490 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:31:35,240 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:31:40,139 INFO c.i.a.p.r.ReadKeys [main] Reading private key.
+2020-04-24 20:31:40,148 DEBUG c.i.a.p.r.ReadKeys [main] N=> OTA1NzU1NTU1NjU2ODA5OTgyMDU4NTc2MDgxMTM0Mzc4MTA5ODM2MjM1NTA3MDQyODQ1OTYwMTgzMTY0MDM4MDYzMTczNzU5Mzk3OTk3MDE3OTM0NzQ3MzYxMTAwMDU5NDU0ODk5OTYwMzkwOTQ2MTkzNTk1NDE2MDIzMjAyMzIxOTIwNjMxNTA4NTQyMDIyNjIxNTIyMDU5ODIxMDAxMjY3NzE2NzYzNTQxODUxMzk0Nzk5NzAzMTk5OTE4MDI0Mzk4Nzc3NDU5MjU3NjkyNzY2NDQ4MTg1MTg1ODM0MDA1MzE3MDQ4MjkwMTkyMzAxMTk2NzIxMzAyMzkxODM3MTY1OTE4NDkxODI1OTYyOTQxNzMwODM0ODgwOTk2MzQ0ODA4MzYyNDc0MzMyNjM0NzQwMDc=
+2020-04-24 20:31:40,166 DEBUG c.i.a.p.r.ReadKeys [main] D=> ODk2MzU3NjAwNjQxMzczOTU2NzkzNDYxMjM0MDIyNDk2NjIxMjkyNTMyODYzNTc3NDg4NDQ4MzUxMzA0OTExOTgzNTA5NDc1NzY1OTkzMTQyNjg1NzE4MTM3ODI4NTAyMzEyNjg1MTUwODQ3MjQwNDQ4NTcxMzA5MjkxMTkxNzM4OTA3ODkwMTY1MDkwMTAxMTgxOTg5NjU4MDcyNDM1MTA2Mjc4MDYzNDUzMDA5NTEwNzM0NTE4MTU1Njk0ODM4NTgwODk1ODQwMTk5NTMyMDkwMDI5OTA0OTU0MjI5NzMwOTczMDEyODU4ODc0MjIyMDQwODgwOTk5ODQwNTkyODAzMDQ1NTExNjY3NjYyNjY1MDkzNTg1Nzg2MDgxNzYzMjA2Njc5NTE2NTc2ODc0NzM2NDk=
+2020-04-24 20:31:40,333 INFO c.i.a.p.r.ReadKeys [main] Reading public key.
+2020-04-24 20:31:40,349 DEBUG c.i.a.p.r.ReadKeys [main] N=> OTA1NzU1NTU1NjU2ODA5OTgyMDU4NTc2MDgxMTM0Mzc4MTA5ODM2MjM1NTA3MDQyODQ1OTYwMTgzMTY0MDM4MDYzMTczNzU5Mzk3OTk3MDE3OTM0NzQ3MzYxMTAwMDU5NDU0ODk5OTYwMzkwOTQ2MTkzNTk1NDE2MDIzMjAyMzIxOTIwNjMxNTA4NTQyMDIyNjIxNTIyMDU5ODIxMDAxMjY3NzE2NzYzNTQxODUxMzk0Nzk5NzAzMTk5OTE4MDI0Mzk4Nzc3NDU5MjU3NjkyNzY2NDQ4MTg1MTg1ODM0MDA1MzE3MDQ4MjkwMTkyMzAxMTk2NzIxMzAyMzkxODM3MTY1OTE4NDkxODI1OTYyOTQxNzMwODM0ODgwOTk2MzQ0ODA4MzYyNDc0MzMyNjM0NzQwMDc=
+2020-04-24 20:31:40,365 DEBUG c.i.a.p.r.ReadKeys [main] E=> NjU1Mzc=
+2020-04-24 20:32:10,817 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:32:12,762 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:32:21,185 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys
+2020-04-24 20:32:21,191 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys\shared
+2020-04-24 20:32:21,191 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:32:21,191 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:32:21,285 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:32:21,290 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:32:21,292 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:32:21,318 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:32:51,184 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys
+2020-04-24 20:32:51,194 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys\shared
+2020-04-24 20:32:51,194 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:32:51,194 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:32:51,284 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:32:51,293 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:32:51,310 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:32:51,325 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:33:00,221 INFO c.i.a.p.Server [Thread-2] Superpeer: 2, started at /127.0.0.1:50028
+2020-04-24 20:33:13,548 INFO c.i.a.p.Client [main] Leafnodes containing the file are: 
+2020-04-24 20:44:26,200 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:44:26,214 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:44:26,214 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:44:26,214 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:44:26,297 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:44:26,301 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:44:26,303 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:44:26,326 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:44:41,115 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys
+2020-04-24 20:44:41,126 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys\shared
+2020-04-24 20:44:41,126 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:44:41,126 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:44:41,237 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:44:41,237 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:44:41,237 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:44:41,280 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:44:53,070 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys
+2020-04-24 20:44:53,079 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys\shared
+2020-04-24 20:44:53,079 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:44:53,079 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:44:53,275 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:44:53,287 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:44:53,288 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:44:53,315 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:48:17,928 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:48:17,938 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:48:17,938 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:49:32,678 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:49:33,863 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:50:39,880 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:50:39,890 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:50:44,846 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:51:07,989 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:51:37,004 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:52:00,780 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:52:00,802 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:52:00,830 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:52:09,384 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys
+2020-04-24 20:52:09,392 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\keys\shared
+2020-04-24 20:52:09,392 INFO c.i.a.p.Client [main] Super-peer 2 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client2\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:52:09,393 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:52:09,570 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:52:09,579 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:52:09,581 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:52:09,603 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:52:15,726 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys
+2020-04-24 20:52:15,740 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\keys\shared
+2020-04-24 20:52:15,740 INFO c.i.a.p.Client [main] Super-peer 3 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client3\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:52:15,740 INFO c.i.a.p.Client [main] Generating RSA keys
+2020-04-24 20:52:15,878 INFO c.i.a.p.Client [main] Writing RSA keys
+2020-04-24 20:52:15,880 INFO c.i.a.p.Client [main] RSA keys generated
+2020-04-24 20:52:15,880 INFO c.i.a.p.Client [main] Enter the file name to download (with extension)
+2020-04-24 20:52:15,924 INFO c.i.a.p.FileSender [Thread-3] 
+
+ (N.B. In the background parallely Waiting for new File download Request) 
+
+
+2020-04-24 20:52:53,395 DEBUG c.i.a.p.Client [main] keysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys
+2020-04-24 20:52:53,962 DEBUG c.i.a.p.Client [main] sharedKeysDir:F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\keys\shared
+2020-04-24 20:52:54,969 INFO c.i.a.p.Client [main] Super-peer 1 stated with master storage F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\Clients\Client1\files\master\master, Topology: F:\Workspace\GnutellaP2PFileSharing-RSA\target\GnutellaP2PFileSharing-RSA\topologies\linear.txt
+2020-04-24 20:53:03,128 INFO c.i.a.p.r.ReadKeys [main] Reading private key.
+2020-04-24 20:53:03,142 DEBUG c.i.a.p.r.ReadKeys [main] N=> NTYxNTY1MzM5MTgwNDQ2ODQ4ODI4OTUzMTAyMzc1NTgyNzA2NTYxMTU3MjUxMTYwMjQ2NzQ1NDA5NzkxNzA5OTEwNDgxMjA1ODY5MDIwMzQzOTA4MDYyMTgwOTc1ODYxNjg2OTQ1MDUzMjEwMDgxMzQ3MTE2NzE4MjYyMDQyMTIzNjU2NzQ3MTYxNDcxOTc4ODM1ODk4MTczODk1Njc1NTQ0NDE3MDQyNTM4NDU0NzA1MDMxMTY0MTQ0MTYyMjA1NjUwMzE3Mjg0ODg2MzE5NzIwODU5ODY1NjkyNDQ2NDgwMzYzMzAyMzg5ODM4MTUxOTkxMDcyMzQyMDMxOTU5NjQ0MDc3NTg4OTI0NjU5MzM5ODcxMTk2NDMxMTEwMzYyMDYyOTY2MDY3MjkzMTg3NTkwNjk=
+2020-04-24 20:53:03,166 DEBUG c.i.a.p.r.ReadKeys [main] D=> OTE1MDQ4OTQyOTAzNzAyMDE1NDQ4NDMyMjEwODUzMjM1MjI5NDY4MzMwNjA0ODcwNTczMTEwNDkxOTYxMTMxOTAwMTUyNDAyMDc0NDQxNjUxNjc2NzkyNjU2MTU0NzI1ODczMTUzNTE5ODc4OTE3MDU1MzgyMzY5Mzk3NDkyNjg5NDAxNDY4MzIxMzA4NDYxMTcyODU3NTYwOTg1MDYzNDc2MzQyNzUwNzQ2NTQ1MzE4NzYyODE0NzIyMzA5OTg0NjQ0Mjc2MDIyODk0NjQxNDMwNDc0NzM2NTQ5MjE1MDg1NjkzODYyMTg5OTYyMjA0OTE1MTA2MTc4MzcyODU0MDgyNDgyNjczMjI4Mzk0MzAyNjcwNzE5MDQ1MzU3OTM0ODYwMTc3NzM0NzAzNTkwMDM1Mw==
+2020-04-24 20:53:03,207 INFO c.i.a.p.r.ReadKeys [main] Reading public key.
+2020-04-24 20:53:03,214 DEBUG c.i.a.p.r.ReadKeys [main] N=> NTYxNTY1MzM5MTgwNDQ2ODQ4ODI4OTUzMTAyMzc1NTgyNzA2NTYxMTU3MjUxMTYwMjQ2NzQ1NDA5NzkxNzA5OTEwNDgxMjA1ODY5MDIwMzQzOTA4MDYyMTgwOTc1ODYxNjg2OTQ1MDUzMjEwMDgxMzQ3MTE2NzE4MjYyMDQyMTIzNjU2NzQ3MTYxNDcxOTc4ODM1ODk4MTczODk1Njc1NTQ0NDE3MDQyNTM4NDU0NzA1MDMxMTY0MTQ0MTYyMjA1NjUwMzE3Mjg0ODg2MzE5NzIwODU5ODY1NjkyNDQ2NDgwMzYzMzAyMzg5ODM4MTUxOTkxMDcyMzQyMDMxOTU5NjQ0MDc3NTg4OTI0NjU5MzM5ODcxMTk2NDMxMTEwMzYyMDYyOTY2MDY3MjkzMTg3NTkwNjk=
+2020-04-24 20:53:03,214 DEBUG c.i.a.p.r.ReadKeys [main] E=> NjU1Mzc=
